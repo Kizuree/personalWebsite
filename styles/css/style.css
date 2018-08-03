@@ -1,3 +1,63 @@
+/* Style the header */
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(17, 1, 32, 0.719); 
+    border-radius: 10px;
+}
+/* Style the tab buttons */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Style each tab content individually */ 
+#London {background-color:red;}
+#Paris {background-color:green;}
+#Tokyo {background-color:blue;}
+#Oslo {background-color:orange;}
+
+
+
+
+
+
+
+
+
+
+
+
 h1{
     text-align: center;
     font-family: 'Oswald', sans-serif;
@@ -45,8 +105,7 @@ h2{
       -28px 56px 1px #e4e3e2;
 }
 .About{
-    border: 5px dotted black;
-    text-align: center;
+    font-family: "Lato", sans-serif;
     
 }
 .skillz{
