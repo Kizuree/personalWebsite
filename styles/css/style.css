@@ -17,8 +17,8 @@
 }
 /* Style the tab buttons */
 .tablink {
-    background-color: #555;
-    color: white;
+    background-color:rgba(189, 154, 59, 0.52);
+    
     float: left;
     border: none;
     outline: none;
@@ -35,17 +35,18 @@
 
 /* Set default styles for tab content */
 .tabcontent {
-    color: white;
+    
     display: none;
     padding: 50px;
     text-align: center;
+
 }
 
 /* Style each tab content individually */ 
-#London {background-color:red;}
-#Paris {background-color:green;}
-#Tokyo {background-color:blue;}
-#Oslo {background-color:orange;}
+#London {background-color:rgba(189, 154, 59, 0.52);}
+#Paris {background-color:rgba(189, 154, 59, 0.52);}
+#Tokyo {background-color:rgba(189, 154, 59, 0.52);}
+#Oslo {background-color:rgba(189, 154, 59, 0.52);}
 
 
 
@@ -214,8 +215,9 @@ h4{
 }
 
 @media screen and (max-width:320px){
-   body{
-       margin: auto;
-
+   .About{
+    margin: 0 auto;
+    max-width: 700px;
+    border-radius: 3px;
    }
 }
