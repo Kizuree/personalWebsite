@@ -53,7 +53,9 @@
 
 
 
-
+#xd{
+    width: 100%;
+}
 
 
 
@@ -209,16 +211,16 @@ h4{
 }
 
 .workz{
-  padding: 100px;  
+  
   display: flex;
   justify-content: center;
 }
 
-@media screen and (max-width:320px){
+/* @media screen and (max-width:320px){
    .About{
     margin: 0 auto;
     max-width: 700px;
     border-radius: 3px;
    }
 
-}
+} */
