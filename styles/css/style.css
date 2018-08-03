@@ -12,7 +12,7 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: rgba(17, 1, 32, 0.719); 
+    background: black;
     border-radius: 10px;
 }
 /* Style the tab buttons */
@@ -220,4 +220,5 @@ h4{
     max-width: 700px;
     border-radius: 3px;
    }
+
 }
